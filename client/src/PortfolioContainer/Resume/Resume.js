@@ -188,6 +188,7 @@ const Resume = (props) => {
   ];
 
   const handleCarousal = (index) => {
+    console.log(index);
     let offsetHeight = 360;
 
     let newCarousalOffset = {
